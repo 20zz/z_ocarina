@@ -1,5 +1,5 @@
 #!/bin/csh
-# $Header: D:\Downloads\bbgames\bbgames\d1\routefree\bbgames\depot/z_ocarina/shape2/zelda_scene_name2/u64txt,v 1.1 2003/02/12 23:40:25 tong Exp $
+# $Header: D:\Downloads\bbgames\bbgames\d1\routefree\bbgames\depot\/z_ocarina/shape2/zelda_scene_name2/u64txt,v 1.1 2003/02/12 23:40:25 tong Exp $
 unalias *
 
 #set nonomatch
