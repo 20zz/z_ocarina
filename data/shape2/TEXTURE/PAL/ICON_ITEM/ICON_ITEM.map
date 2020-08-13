@@ -1,0 +1,36 @@
+		LINK EDITOR MEMORY MAP
+
+
+output		input		virtual
+section		section		address		size
+
+.MIPS.options                          0              28
+		.MIPS.options          0              28 *ld_internal*
+
+.reginfo                               0              18
+		.reginfo               0              18 *ld_internal*
+
+.data                                  0           d2050
+		.data                  0           89ca0 pal_icon_item.o
+		.data              89ca0            b400 pal_icon_item_24.o
+		.data              950a0            1d80 pal_icon_item_dungeon.o
+		.data              96e20            b930 pal_icon_item_field.o
+		.data              a2750            f480 pal_icon_item_fra.o
+		.data              b1bd0            3c80 pal_icon_item_gameover.o
+		.data              b5850            eb80 pal_icon_item_ger.o
+		.data              c43d0            dc80 pal_icon_item_nes.o
+
+.strtab                                0            14bf
+		.strtab                0            14bf *ld_internal*
+
+.symtab                                0            1660
+		.symtab                0            1660 *ld_internal*
+
+.mdebug                                0           37500
+		.mdebug                0           37500 *ld_internal*
+
+.rel.data                              0              48
+		.rel.data              0              48 pal_icon_item.o
+
+.shstrtab                              0              4a
+		.shstrtab              0              4a *ld_internal*

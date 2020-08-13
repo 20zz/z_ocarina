@@ -1,0 +1,32 @@
+#!/bin/sh
+set -x
+#
+# $Id: keep_PAL,v 1.1.1.1 2003/01/17 20:59:57 tong Exp $
+#
+# $Log: keep_PAL,v $
+# Revision 1.1.1.1  2003/01/17 20:59:57  tong
+# ZELDA-OCARINA OF TIME (20L) build from Nintendo
+#
+# Revision 1.2  1998/10/28  05:09:41  iwawaki
+# £Ð£Á£ÌÍÑ
+#
+# Revision 1.1  1998-10-28 11:43:07+09  iwawaki
+# Initial revision
+#
+# Revision 2.1  1998-10-22 21:42:44+09  hayakawa
+# £Ò£Ï£Í½Ð¤·¥Ð¡¼¥¸¥ç¥ó(NTSC)
+#
+# Revision 1.2  1997-04-18 21:12:37+09  iwawaki
+# *** empty log message ***
+#
+# Revision 1.1  1997/04/18  11:52:25  iwawaki
+# Initial revision
+#
+# Revision 1.1  1997/04/18  10:45:48  iwawaki
+# Initial revision
+#
+# Revision 1.1  1997/04/18  10:45:48  iwawaki
+# Initial revision
+#
+#
+ld -r -o keep_PAL.o -objectlist keep_PAL.objs -m > keep_PAL.map

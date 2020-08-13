@@ -1,0 +1,35 @@
+		LINK EDITOR MEMORY MAP
+
+
+output		input		virtual
+section		section		address		size
+
+.MIPS.options                          0              50
+		.MIPS.options          0              50 *ld_internal*
+
+.reginfo                               0              18
+		.reginfo               0              18 *ld_internal*
+
+.data                                  0           567b0
+		.data                  0            2040 shape/zelda_link_new/Skeleton/Keep/Keep.o
+		.data               2040             2d0 shape/zelda_link_new/Anime_Pause/Anime_Pause.o
+		.data               2310            11f0 shape/zelda_link_new/Anime_Table/Anime_Table.o
+		.data               3500              f0 shape/zelda_marker/Shape/Shape.o
+		.data               35f0           531c0 shape/zelda_keep_PAL/zelda_keep_PAL.o
+
+.strtab                                0            c9db
+		.strtab                0            c9db *ld_internal*
+
+.symtab                                0            6320
+		.symtab                0            6320 *ld_internal*
+
+.mdebug                                0          17f420
+		.mdebug                0          17f420 *ld_internal*
+
+.rel.data                              0            2118
+		.rel.data              0            11e8 shape/zelda_link_new/Anime_Table/Anime_Table.o
+		.rel.data           11e8               8 shape/zelda_marker/Shape/Shape.o
+		.rel.data           11f0             f28 shape/zelda_keep_PAL/zelda_keep_PAL.o
+
+.shstrtab                              0              4a
+		.shstrtab              0              4a *ld_internal*
